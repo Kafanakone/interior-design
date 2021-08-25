@@ -1,0 +1,114 @@
+/* CSS general */
+body{
+    background-color: #e6ecf5;
+    width: 1300Px;
+    font-family:arial;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#content{
+    margin: 35px auto;
+    width: 1100px;
+    background-color: #fff;
+    display: flex;
+}
+
+/* Box-left */
+
+#box-left{
+    width: 290px ;
+    border: 1px #000 solid;
+    border-right: none;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #264654;
+}
+#box-left img{
+    padding-top: auto;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.boutton{
+    color: #fff;
+    text-align: center;
+    width: 150px;
+    border: 1px #264654 solid;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #264654;
+}
+.boutton a{
+    color:#fff;
+}
+.boutton:hover{
+    background-color: transparent;
+    color:#264654;
+    border-radius: 20px;
+    border-width: 2px;
+}
+.boutton:hover a{
+    color:#686c6e;
+    font-weight: bold;
+}
+/*  End Box-left */
+
+/* Box-right */
+#box-right{
+    width: 800px;
+    height: 550px;
+    background-image: url('images/Design.png');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    overflow: hidden;
+  
+}
+#navigation nav ul{
+    color: #fff;
+    display: flex;
+    margin-top: 0px;
+    height: 20px;
+    background-color: rgb(0, 0, 0, 0.3);
+    padding: 20px;
+    justify-content: center;
+    font-weight: bold;
+}
+#navigation nav ul li a{
+    color: #fff;
+}
+#navigation nav ul li{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1px rgb(255, 255, 255, 0.6) solid;
+    border-width: 4px;
+}
+#navigation nav ul li:hover{
+    border-color: #fff;
+    border-radius: 4px;
+}
+#navigation nav{
+    margin-top: 0px;
+    height: 20px;
+}
+.bottom{
+    padding: 30px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 0px;
+    width: 580px;
+    background-color: #fff;
+    float: right;
+    margin-top: 370px;
+    color:#264654;
+}
