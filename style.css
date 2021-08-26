@@ -130,14 +130,60 @@ h3{
     #content{
         width: 90%;
         margin: 0;
+        display: block;
     }
     #navigation nav {
         font-size: 80%;
     }   
     #box-right{
         width: 80%;
+    } 
+    .boutton{
+        width: 90%;
+        border-radius: 20px;
+        border-width: 2px;
+        margin-bottom: 15px;
+    }  
+    .bottom{
+        width: 70%;
     }
-    #box-left{
-        width: 80% ;
-    }    
+}
+@media (max-width: 800px){
+    #navigation nav ul li a{
+        color:#fff;
+        font-size: 15px;
+        text-align: center;
+
+    }
+    #navigation nav ul li{
+        padding: 5px;
+        text-align: center;
+        margin: 5px;
+        border:4px #fff solid;
+        border-color: #fff;
+        background-color: #264654;
+
+    }
+    #navigation nav ul li:hover{
+        background-color: transparent;
+        border-color: #264654;
+        border-radius: 10px;
+    }
+    #navigation nav ul{
+        color:#264654;
+        display: block;
+        background-color: none;
+        border-color: #fff;
+    }   
+    #box-right{
+        width: 80%;
+    }  
+    .bottom{
+        margin-top: 100%;
+        width: 60%;
+        font-size: 70%;
+    }
+    .bottom h3{
+        font-size: 20px;
+    }
 }
